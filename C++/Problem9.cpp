@@ -9,9 +9,9 @@ For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1,
 Follow-up: Can you do this in O(N) time and constant space?
 
 The Recursive formula is 
-		{ max(res[i-1], res[i-2] + v[i]) 	if i>=2	
-res[i]= { max(v[0],v[1])  					if i=1
-		{ v[0]								if i=0
+	{ max(res[i-1], res[i-2] + v[i]) 	if i>=2	
+res[i]= { max(v[0],v[1])  			if i=1
+	{ v[0]					if i=0
 
 This program will take O(n) Time and Space Complexity
 */
