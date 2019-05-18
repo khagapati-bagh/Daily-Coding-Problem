@@ -1,4 +1,6 @@
-/*Good morning! Here's your coding interview problem for today.
+/*
+Daily Coding Problem: Problem #12 [Hard]
+Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Amazon.
 

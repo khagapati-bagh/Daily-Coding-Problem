@@ -1,4 +1,7 @@
-/*Good morning! Here's your coding interview problem for today.
+/*
+Daily Coding Problem: Problem #9 [Hard]
+
+Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Airbnb.
 
@@ -26,8 +29,8 @@ int max_sum(vector<int>v)
     vector<int>res(n+1);
     res[0] = v[0];
     res[1] = (v[1] > v[0] ? v[1] : v[0]); //check first or 2nd 
-    for(i = 2; i < n; i++)
-        res[i] = (res[i-1] > res[i-2] + v[i] ? res[i-1] : res[i-2]+v[i]); // check previous is greater or previos of previous + current
+    for(i = 2; i < n; i++)// check previous is greater or previos of previous + current
+        res[i] = (res[i-1] > res[i-2] + v[i] ? res[i-1] : res[i-2]+v[i]); 
     return res[n-1];
 }
 int main() {
