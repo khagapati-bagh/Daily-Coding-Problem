@@ -26,7 +26,9 @@ output
 */
 /*
 This code will tak Max(m,n) Time and O(1)
-You can get my code directly in IDE link : https://ide.geeksforgeeks.org/C2dqCRRU8A 
+You can get my code directly in IDE link : 
+https://ide.geeksforgeeks.org/C2dqCRRU8A 
+https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/295753/Simple-Solution-with-O(n)-Time-and-O(1)-Space-Complexity-beats-96
 
 Different Approach
 By using two stack it takes O(m+n) Time and Space Complexity.
