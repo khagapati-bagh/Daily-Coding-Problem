@@ -76,10 +76,14 @@ public:
         /*if(s.size() == 0) 
             return true;*/
         unordered_map<string, bool>mp;
+        int maxlen = 0;
         for(string a : wordDict)
+        {
             mp[a] = true;
+            maxlen = max(maxlen, (int)a.length());
+        }
         vector<string> res;
-        res = compare_char(s,mp);
+        res = compare_char(s, mp, maxlen);
         if(res.size() > 0)
 	        for(string str : res)
 	        	cout<<str<<' ';
@@ -89,7 +93,7 @@ public:
     }
 
 private:
-    vector<string> compare_char(string s, unordered_map<string, bool>mp){
+    vector<string> compare_char(string s, unordered_map<string, bool>mp, int maxlen){
         int sz = s.size();
         vector<string>res;
         if(sz == 0)
@@ -99,7 +103,7 @@ private:
         word[0] = true; // first char true
         for(int i = 1; i <= sz; i++)
         {
-            for(int j = i-1; j >= 0; j--)
+            for(int j = i-1; j >= 0 && i - j <= maxlen; j--)
             {
                 if(word[j])
                 {
