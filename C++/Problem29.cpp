@@ -65,7 +65,7 @@ int main() {
 #define M 10
 char * decode(char * src){
     int len = strlen(src);
-    char *res =(char *)malloc(sizeof(char) * (10000));
+    char *res =(char *)malloc(sizeof(char) * (10000));//max size
     int i,j=0;
     for(i = 0; i < len; i++)
     {
