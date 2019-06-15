@@ -3,7 +3,7 @@ Daily Coding Problem: Problem #44 [Medium]
 
 Good morning! Here's your coding interview problem for today.
 
-This problem was asked by Google.
+This problem was asked by Google
 
 We can determine how "out of order" an array A is by counting the number of inversions it has. 
 Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
