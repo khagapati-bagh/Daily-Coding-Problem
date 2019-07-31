@@ -24,6 +24,7 @@ output
 */
 
 //You can get my code in IDE https://ide.geeksforgeeks.org/Nktr6F8iF8
+
 #include <bits/stdc++.h>
 using namespace std;
 int generate_random(int n, vector<int>list)
