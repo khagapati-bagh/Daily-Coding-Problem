@@ -59,7 +59,6 @@ public:
     }
 };
 
-
 int main(){
     int t;
     cin>>t;
@@ -78,4 +77,4 @@ int main(){
 }
 
 ```
-**[Run Code](https://ide.geeksforgeeks.org/zYCSwiXgPQ)**
+**[Run Code](https://ide.geeksforgeeks.org/zYCSwiXgPQ){:target="_blank"}**
