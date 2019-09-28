@@ -77,4 +77,4 @@ int main(){
 }
 
 ```
-**[Run Code](https://ide.geeksforgeeks.org/zYCSwiXgPQ)**{:target="_blank"}
+**[Run Code](https://ide.geeksforgeeks.org/zYCSwiXgPQ){:target="_blank"}**{:target="_blank"}
