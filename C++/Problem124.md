@@ -10,7 +10,8 @@ You have n fair coins and you flip them all at the same time. Any that come up t
 Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
 
 **Solution** :
-    ```
+
+```
     Since the probability of getting Head is 1/2, after every round the number of coins will probably halved.
     So let's C(i) the number of coins at the i-th round.
             C(i) = n / 2^i
@@ -19,7 +20,7 @@ Write a function that, given n, returns the number of rounds you'd expect to pla
                                 i > log2(n)
             So the expected value of F(n) searched is:
                                 F(n) ~ log2 (n)
-    ```
+```
 
 ```cpp
 
